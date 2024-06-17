@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="images/logo.svg" alt="" />
+      </div>
+      <div class="menu">
+        <div class="enlaces">
+          <a href="#dropdown" class="nav-menu nav-menu-first">
+            <img src="./images/icon-menu.svg" class="nav__icon" />
+          </a>
+
+          <a href="#" class="nav-menu nav-menu-second">
+            <img src="./images/icon-close-menu.svg" class="nav__icon" />
+          </a>
+
+          <input type="checkbox" class="nav-menu-check" />
+
+          <ul id="dropdown">
+            <li class="dropdown-list">
+              <a href="" class="dropdown-link">
+                <span>Features</span>
+                <img
+                  src="images/icon-arrow-down.svg"
+                  alt=""
+                  class="dropdown-arrow"
+                />
+                <input type="checkbox" id="" class="dropdown-check" />
+              </a>
+
+              <div class="dropdown-content">
+                <ul class="submenu">
+                  <li class="submenu-item">
+                    <a href="">
+                      <img src="images/icon-todo.svg" alt="" />
+                      <span class="sbmenu-text">Todo list</span>
+                    </a>
+                  </li>
+                  <li class="submenu-item">
+                    <a href="">
+                      <img src="images/icon-calendar.svg" alt="" />
+                      <span class="sbmenu-text">Calendar</span>
+                    </a>
+                  </li>
+                  <li class="submenu-item">
+                    <a href="">
+                      <img src="images/icon-reminders.svg" alt="" />
+                      <span class="sbmenu-text">Reminders</span>
+                    </a>
+                  </li>
+                  <li class="submenu-item">
+                    <a href="">
+                      <img src="images/icon-planning.svg" alt="" />
+                      <span class="sbmenu-text">Planning</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="dropdown-list">
+              <a href="" class="dropdown-link">
+                <span>Company</span>
+                <img
+                  src="images/icon-arrow-down.svg"
+                  alt=""
+                  class="dropdown-arrow"
+                />
+                <input type="checkbox" id="" class="dropdown-check" />
+              </a>
+
+              <div class="dropdown-content">
+                <ul class="submenu">
+                  <li class="submenu-item">
+                    <a href="">
+                      <span>History</span>
+                    </a>
+                  </li>
+                  <li class="submenu-item">
+                    <a href="">
+                      <span>Our Team</span>
+                    </a>
+                  </li>
+                  <li class="submenu-item">
+                    <a href="">
+                      <span>Blog</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="dropdown-list">
+              <a href="" class="dropdown-link">
+                <span>Careers</span>
+              </a>
+            </li>
+            <li class="dropdown-list">
+              <a href="" class="dropdown-link">
+                <span>About</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="buttons">
+          <button class="login">Login</button>
+          <button class="register">Register</button>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="content">
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button>Learn more</button>
+        <div class="marcas">
+          <div class="audiophile">
+            <img src="images/client-audiophile.svg" alt="" />
+          </div>
+          <div class="databiz">
+            <img src="images/client-databiz.svg" alt="" />
+          </div>
+          <div class="marker">
+            <img src="images/client-maker.svg" alt="" />
+          </div>
+          <div class="meet">
+            <img src="images/client-meet.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="img-bg"></div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
